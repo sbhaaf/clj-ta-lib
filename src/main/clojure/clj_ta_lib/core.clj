@@ -123,5 +123,15 @@
          :lookback (.getLookback func)
          :name (.name (.getFuncInfo func))
          :options options
-         :columns @outputCols}))))
+               :columns @outputCols}))))
+
+(defn make-price-holder
+  [data]
+  (PriceHolder. (double-array (nth data 0));open
+	        (double-array (nth data 1));high
+	        (double-array (nth data 2));low
+	        (double-array (nth data 3));close
+	        (double-array (nth data 4));volume
+	        (double-array (count (nth data 0));open interest
+                               )))
         

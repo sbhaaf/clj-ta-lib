@@ -49,7 +49,8 @@ Dates maintain default string format while other values are converted to BigDeci
 	                  (double-array (nth data 4));close
 	                  (double-array (nth data 5));volume
 	                  (double-array (count (nth data 1));open interest
-                                 )))))
+                                        )))))
+
 
 ; memoize price holder data structure for 4 hours
 ;(def price-holder 
