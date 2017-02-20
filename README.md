@@ -2,7 +2,7 @@
 ==========
 Clojure Technical Analysis Library. Clojure Wrapper of TA-LIB
 
-## Changes to Fork
+## Changes to this fork
 Made Priceholder object available to parent projects
 
 ## Bugs and Enhancements
