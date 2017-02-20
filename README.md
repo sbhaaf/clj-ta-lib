@@ -1,3 +1,6 @@
+## Changes to Fork
+Made Priceholder object available to parent projects
+
 # `clj-ta-lib`
 ==========
 
