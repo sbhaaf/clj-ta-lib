@@ -1,10 +1,9 @@
-## Changes to Fork
-Made Priceholder object available to parent projects
-
 # `clj-ta-lib`
 ==========
-
 Clojure Technical Analysis Library. Clojure Wrapper of TA-LIB
+
+## Changes to Fork
+Made Priceholder object available to parent projects
 
 ## Bugs and Enhancements
 
